@@ -6,7 +6,7 @@
 <body>
 
 <form action="action_page.php">
-  <div class="container">
+  <div class="container-fluid">
     <h1>New user Register for DevOps Learning</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
@@ -16,23 +16,23 @@
     <br>
     
     <label for="mobile" class="form-label"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
+    <input type="text" class="form-control" placeholder="Enter moible number" name="mobile" id="mobile" required>
     <br>
 
     <label for="email" class="form-label"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <input type="text" class="form-control" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
     <label for="psw" class="form-label"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required>
     <br>
 
     <label for="psw-repeat" class="form-label"><b>Repeat Password</b></label>
-    <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
     <br>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
+    <button type="submit" class="btn btn-primary">Register</button>
   </div>
   <div class="container signin">
     <p>Already have an account? <a href="#">Sign in</a>.</p>
