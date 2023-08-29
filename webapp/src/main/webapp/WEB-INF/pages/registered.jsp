@@ -8,7 +8,7 @@
     <body>
         <div class="container">
             <div class="row">
-                <h1>Dear <%=request.getAttribute("Name")%>, You are successfully registed!</h1>
+                <h1>Dear <%=request.getParameter("Name")%>, You are successfully registed!</h1>
             </div>
             
         </div>
