@@ -10,7 +10,9 @@
             <div class="row">
                 <h1>Dear <%=request.getParameter("Name")%>, You are successfully registed!</h1>
             </div>
-            
+            <div class="row">
+                <a href="/webapp" class="link-primary">Back</a>
+            </div>
         </div>
         
     </body>
