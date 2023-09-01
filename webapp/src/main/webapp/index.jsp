@@ -11,9 +11,10 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
      
-    <label for="Name" class="form-label" ><b>Enter Name</b></label>
-    <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
+    <div class="row"> 
+      <div class="col"> <label for="Name" class="form-label" >Enter Name</label> </div>
+      <div class="col"> <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required> </div>
+    </div>
     
     <label for="mobile" class="form-label"><b>Enter mobile</b></label>
     <input type="text" class="form-control" placeholder="Enter moible number" name="mobile" id="mobile" required>
