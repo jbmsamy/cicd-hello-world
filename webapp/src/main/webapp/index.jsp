@@ -15,10 +15,14 @@
       <div class="col"> <label for="Name" class="form-label" >Enter Name</label> </div>
       <div class="col"> <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required> </div>
     </div>
-    
-    <label for="mobile" class="form-label"><b>Enter mobile</b></label>
-    <input type="text" class="form-control" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+    <div class="row">
+      <div class="col">
+        <label for="mobile" class="form-label"><b>Enter mobile</b></label>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Enter moible number" name="mobile" id="mobile" required>
+      </div>
+    </div>
 
     <label for="email" class="form-label"><b>Enter Email</b></label>
     <input type="text" class="form-control" placeholder="Enter Email" name="email" id="email" required>
