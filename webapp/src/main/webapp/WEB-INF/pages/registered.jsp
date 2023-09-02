@@ -8,7 +8,8 @@
     <body>
         <div class="container">
             <div class="row">
-                <h1>Dear <%=request.getParameter("Name")%>, You are successfully registed!</h1>
+                <h1>Dear <%=request.getParameter("Name")%>, You are successfully registered!</h1>
+                <b> Erumpoondi is great!  </b>
             </div>
             <div class="row">
                 <a href="/webapp" class="link-primary">Back</a>
