@@ -12,21 +12,21 @@
     <hr>
      
     <div class="row"> 
-      <div class="col"> <label for="Name" class="form-label" >Enter Name</label> </div>
-      <div class="col"> <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required> </div>
+      <div class="col col-lg-4"> <label for="Name" class="form-label" >Enter Name</label> </div>
+      <div class="col col-lg-8"> <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required> </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col col-lg-4">
         <label for="mobile" class="form-label"><b>Enter mobile</b></label>
       </div>
-      <div class="col">
+      <div class="col col-lg-8">
         <input type="text" class="form-control" placeholder="Enter moible number" name="mobile" id="mobile" required>
       </div>
     </div>
-
-    <label for="email" class="form-label"><b>Enter Email</b></label>
-    <input type="text" class="form-control" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+    <div class="row">
+      <div class="col col-lg-4"><label for="email" class="form-label"><b>Enter Email</b></label></div>
+      <div class="col col-lg-8"><input type="text" class="form-control" placeholder="Enter Email" name="email" id="email" required></div>
+    </div>
 
     <label for="psw" class="form-label"><b>Password</b></label>
     <input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required>
