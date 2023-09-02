@@ -27,10 +27,10 @@
       <div class="col col-lg-4"><label for="email" class="form-label"><b>Enter Email</b></label></div>
       <div class="col col-lg-8"><input type="text" class="form-control" placeholder="Enter Email" name="email" id="email" required></div>
     </div>
-
-    <label for="psw" class="form-label"><b>Password</b></label>
-    <input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+    <div class="row">
+      <div class="col col-lg-4 col-md-2 col-sm-1"><label for="psw" class="form-label"><b>Password</b></label></div>
+      <div class="col col-lg-8 col-md-6 col-sm-3"><input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required> </div>
+    </div>
 
     <label for="psw-repeat" class="form-label"><b>Repeat Password</b></label>
     <input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
