@@ -13,7 +13,7 @@
      
     <div class="row"> 
       <div class="col col-lg-4"> <label for="Name" class="form-label" >Enter Name</label> </div>
-      <div class="col col-lg-8"> <input type="text" class="form-control" placeholder="Enter Full Name" name="Name" id="Name" required> </div>
+      <div class="col col-lg-8"> <input type="text" class="form-control" placeholder="Enter Name" name="Name" id="Name" required> </div>
     </div>
     <div class="row">
       <div class="col col-lg-4">
