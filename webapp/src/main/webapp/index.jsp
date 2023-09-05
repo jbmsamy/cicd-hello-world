@@ -31,9 +31,10 @@
       <div class="col col-lg-4 col-md-2 col-sm-1"><label for="psw" class="form-label"><b>Password</b></label></div>
       <div class="col col-lg-8 col-md-6 col-sm-3"><input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required> </div>
     </div>
-
-    <label for="psw-repeat" class="form-label"><b>Repeat Password</b></label>
-    <input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <div class="row">
+      <div class="col"><label for="psw-repeat" class="form-label">Repeat Password</label> </div>
+      <div class="col"><input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> </div>
+    </div>
     <hr>
     <br>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
