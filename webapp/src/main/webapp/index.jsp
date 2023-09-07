@@ -32,8 +32,8 @@
       <div class="col col-lg-8 col-md-6 col-sm-3"><input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required> </div>
     </div>
     <div class="row">
-      <div class="col"><label for="psw-repeat" class="form-label">Repeat Password</label> </div>
-      <div class="col"><input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> </div>
+      <div class="col col-lg-4 col-sm-3"><label for="psw-repeat" class="form-label">Repeat Password</label> </div>
+      <div class="col col-lg-8 col-sm-6"><input type="password"  class="form-control" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> </div>
     </div>
     <hr>
     <br>
